@@ -23,7 +23,7 @@ RUN curl -# -L "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.
 # ---------------------------------------------------------------------------
 # Stage 2: Финальный образ
 # ---------------------------------------------------------------------------
-FROM apache/airflow:2.9.2-python3.12
+FROM apache/airflow:2.10.5-python3.12
 
 USER root
 

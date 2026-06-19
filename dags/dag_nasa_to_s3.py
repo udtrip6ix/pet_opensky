@@ -23,7 +23,7 @@ SECRET_KEY = Variable.get("secret_key")
 
 default_args = {
     "owner": OWNER,
-    "start_date": pendulum.datetime(2025, 5, 19, tz="UTC"),
+    "start_date": pendulum.datetime(2026, 5, 19, tz="UTC"),
     "retries": 3,
     "retry_delay": pendulum.duration(minutes=5),
 }

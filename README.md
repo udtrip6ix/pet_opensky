@@ -20,6 +20,8 @@ Variables и Connections в Airflow UI (http://localhost:8080).
 | KEY_PREFIX    | asteroids                                |
 | CH_TABLE      | nasa.asteroids                           |
 | CH_MIN_ROWS   | 1                                        |
+|access_key     |сгенерировать в s3                        |
+|secret_key     |сгенерировать в s3                        |
 
 ---
 
